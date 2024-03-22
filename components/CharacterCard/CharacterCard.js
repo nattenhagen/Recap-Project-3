@@ -13,6 +13,7 @@ export function CharacterCard() {
         <div class="card__image-gradient"></div>
       </div>
       <div class="card__content">
+    // name
         <h2 class="card__title">Rick Sanchez</h2>
         <dl class="card__info">
           <dt class="card__info-title">Status</dt>
@@ -23,6 +24,9 @@ export function CharacterCard() {
           <dd class="card__info-description">51</dd>
         </dl>
       </div>`;
+
+  const name = document.createElement("h2");
+
   cardContainer.append(card);
 
   return card;
